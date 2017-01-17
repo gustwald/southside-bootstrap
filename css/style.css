@@ -247,9 +247,8 @@ li a:hover {
 .info-children {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  width: 265px;
-  height: 390px;
-  margin: 2em; }
+  width: 200px;
+  height: 390px; }
 
 .info-name {
   font-size: 22px;
@@ -259,26 +258,20 @@ li a:hover {
   background-image: url("../img/liams.jpg");
   background-size: cover;
   border-radius: 200px;
-  height: 390px;
-  width: 265px;
-  margin: 2em 2em 0 2em; }
+  height: 390px; }
 
 .gustav {
   background-image: url("../img/gustav.jpg");
   background-size: cover;
   background-size: cover;
   border-radius: 200px;
-  height: 390px;
-  width: 265px;
-  margin: 2em 2em 0 2em; }
+  height: 390px; }
 
 .martin {
   background-image: url("../img/clavin.jpg");
   background-size: cover;
   border-radius: 200px;
-  height: 390px;
-  width: 265px;
-  margin: 2em 2em 0 2em; }
+  height: 390px; }
 
 #map {
   height: 400px;

@@ -144,11 +144,13 @@ li a:hover {
   justify-content: center;
   flex-direction: row; }
 
+.margpad {
+  margin: 0.1px;
+  padding: 0.1px; }
+
 .company {
-  width: 30%;
-  display: inline-block;
-  background-color: #f2f2f2;
-  margin: 1em 0.3em 1em 0.3em; }
+  height: 370px;
+  background-color: #f2f2f2; }
 
 .picwork {
   height: 15em; }

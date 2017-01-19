@@ -14,9 +14,32 @@
     </script>
 <title>bootstrapSS</title>
 </head>
+<nav class="navbar navbar-inverse  navbar-fixed-top">
+  <div class="container-fluid">
 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img class="logo" src="img/loggaSouthside.png" /></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+       <ul class="nav navbar-nav">
+        <li><a href="#">OM</a></li>
+        <li><a href="#">TJÄNSTER</a></li>
+        <li><a href="#">ARBETE</a></li>
+        <li><a href="#">KONTAKT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <body>
-<nav class="topNav">
+<!--<nav class="topNav">
 	<ul class="navigation">
         <img class="logo" src="img/loggaSouthside.png" />
 		<li><a href="index.html#about" id="abt">OM</a></li>
@@ -24,7 +47,7 @@
         <li><a href="index.html#work" id="wrk">ARBETEN</a></li>
 		<li><a href="index.html#contact" id="cont">KONTAKT</a></li>
 	</ul>
-</nav>
+</nav>-->
 <section class="sections landing" id="top">
 	<p class="compName">SOUTHSIDE BRANDING</p>
     <div class="triangle"></div>
@@ -145,7 +168,7 @@
 <hr>
 <div class="container fluid">
     <h1 class="section-header">Kontakt</h1>
-    <p class="bread">Om du vill kontakta oss på Southside kan du göra det <a href="mailto:south@side?Subject=Hej%20igen" target="_top">här.</a></p>
+    <p class="text-center">Om du vill kontakta oss på Southside kan du göra det <a href="mailto:south@side?Subject=Hej%20igen" target="_top">här.</a></p>
     <div class="row">
         <div class="col-md-4 text-center martin"></div>
         <div class="col-md-4 text-center liam"></div>
@@ -166,10 +189,10 @@
         </div>
     </div>
 </div>
-<section class="sections contact" id="contact">
-        
+
+   <div class="contact">
      <div id="map"></div>
-    <footer class="footer">
+    <footer class="footer contact">
         <div class="foot-contact">
             <h3 class="footer-contact">Kontakt</h3>
             <p class="footer-text">contact@southsidebranding.com</p>
@@ -184,7 +207,7 @@
             <img id="youtube" src="img/youtube.svg">
         </div>
     </footer>
-</section>
+    </div>
 
 <script src="script/script.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

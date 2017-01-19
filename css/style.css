@@ -56,15 +56,14 @@ h2 {
   font-family: "Oswald";
   text-align: center; }
 
-.bread {
+.text-center {
   font-family: "Oswald";
-  text-align: center;
   padding-top: 0.5em;
   padding-bottom: 1em;
-  margin: 0 auto;
   width: 85%;
   font-size: 1.5em;
-  line-height: 1.6em; }
+  line-height: 1.6em;
+  margin: 0 auto; }
 
 .compName {
   text-align: center;

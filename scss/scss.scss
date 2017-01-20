@@ -28,10 +28,6 @@ html{
   background-repeat: no-repeat;
 }
 
-.sections{
-   @include sections;
-}
-
 .logo{
   height: 30px;
   width: auto;
@@ -64,47 +60,6 @@ line-height: 1.6em;
   font-size: 16px;
   margin: 2em 0 0 0;
 }
-.information{
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  margin: 1em 0 0 0;
-}
-//offers
-.offers {
-  width:100%;
-}
-
-.service{
-  background-color:#f2f2f2;
-  box-shadow: 1px 1px 1px #888888;
-  // border: 3px solid #333333;
-  // border-radius: 3px;
-  line-height: 1.6em;
-  margin: 0 0.5em 1em 0.5em;
-}
-
-
-// .service p{
-//   margin: 1em 1em 1em 1em;
-// }
-
-.service h2{
-  margin: 1em 0 0 0;
-  text-align: center;
-  font-size: 2em;
-}
-
-.work {
-  width:100%;
-}
-
-//work
-.workcontainer {
-  display:flex;
-  justify-content:center;
-  flex-direction:row;
-}
-
 .margpad {
   margin:0.1px 0.1px 0.1px 0.1px;
   margin-top:10px;
@@ -204,21 +159,7 @@ line-height: 1.6em;
   40%  { -webkit-transform: translateY(-20px); }
   80% { -webkit-transform: translateY(-10px); }
 }
-//contact
-.container-contact{
-   display: -webkit-flex;
-   display: flex;
-   justify-content: center;
-   width: 100%;
-   height: 450px;
-}
-.info-container{
-   display: -webkit-flex;
-   display: flex;
-   justify-content: center;
-   width: 100%;
-   height: 200px;
-}
+
 .info-children{
 text-align: center;
 font-family: 'Lato', sans-serif;
@@ -237,7 +178,6 @@ height: 390px;
 
 .gustav{
   background-image: url("../img/gustav.jpg");
-  background-size: cover;
   @include portraits;
 }
 

@@ -20,3 +20,8 @@
     border-radius: 200px;
     height: 390px;
 }
+
+@mixin transform() {
+    transform:scale(1.2, 1.2);
+}
+

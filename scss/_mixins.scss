@@ -9,12 +9,6 @@
     transform-origin: bottom left;
     transform: skewY(3deg);
 }
-
-@mixin sections(){
-    height: 110vh;
-	width: 100%;
-}
-
 @mixin compName(){
 	font-family: 'Rock Salt', cursive;
 	font-size: 2em;

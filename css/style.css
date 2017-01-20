@@ -5,17 +5,12 @@
 html {
   scroll-behavior: smooth; }
 
-.topNav {
-  position: fixed;
-  width: 100%;
-  z-index: 100000; }
-
 .landing {
-  overflow: hidden;
-  position: relative; }
-
-.about {
-  margin-top: 1em; }
+  margin: 0;
+  background-image: url("../img/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
 
 .landing::after {
   content: "";
@@ -25,7 +20,7 @@ html {
   background: inherit;
   z-index: -1;
   bottom: 0;
-  transform-origin: top right;
+  transform-origin: bottom left;
   transform: skewY(3deg);
   background-image: url("../img/landing.jpg");
   background-size: cover;
@@ -46,34 +41,20 @@ hr {
   border: 0;
   border-radius: 3px; }
 
-h1 {
-  font-family: "Oswald";
-  text-align: center;
-  padding: 3em 0 1em 0; }
+.headingText {
+  font-family: "Oswald"; }
 
-h2 {
-  padding-top: 1em;
+.breadText {
   font-family: "Oswald";
-  text-align: center; }
-
-.text-center {
-  font-family: "Oswald";
-  padding-top: 0.5em;
-  padding-bottom: 1em;
-  width: 85%;
   font-size: 1.5em;
-  line-height: 1.6em;
-  margin: 0 auto; }
+  width: 85%;
+  margin: 0 auto;
+  line-height: 1.6em; }
 
 .compName {
-  text-align: center;
   font-family: 'Rock Salt', cursive;
   font-size: 2em;
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+  color: white !important;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; }
 
 .contact-information {
@@ -94,11 +75,6 @@ h2 {
   box-shadow: 1px 1px 1px #888888;
   line-height: 1.6em;
   margin: 0 0.5em 1em 0.5em; }
-
-.service-bread {
-  font-family: "Oswald";
-  font-size: 1.5em;
-  line-height: 1.6em; }
 
 .service h2 {
   margin: 1em 0 0 0;

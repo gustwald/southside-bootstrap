@@ -6,26 +6,21 @@
 @import "mixins";
 
 $headingFont: 'Oswald';
+$breadFont: 'Lato';
 
 html{
   scroll-behavior: smooth;
 }
 
-.topNav{
-  position: fixed;
-  width: 100%;
-  z-index: 100000;
-}
-
 .landing{
-  overflow: hidden;
-  position: relative;
+  // overflow: hidden;
+  // position: relative;
+  margin: 0;
+  background-image: url("../img/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-
-.about{
-  margin-top: 1em;
-}
-
 .landing::after{
   @include skew;
   background-image: url("../img/landing.jpg");
@@ -50,26 +45,15 @@ hr{
   border-radius: 3px;
 }
 
-h1{
+.headingText{
   font-family: $headingFont;
-  text-align: center;
-  padding: 3em 0 1em 0;
 }
-
-h2{
-  padding-top:1em;
-  font-family:$headingFont;
-  text-align:center;
-}
-
-.text-center{
-  font-family: $headingFont;
-  padding-top:0.5em;
-  padding-bottom:1em;
-  width:85%;
-  font-size:1.5em;
-  line-height:1.6em;
-  margin:0 auto;
+.breadText{
+font-family: $headingFont;
+font-size: 1.5em;
+width: 85%;
+margin: 0 auto;
+line-height: 1.6em;
 }
 
 .compName{
@@ -99,11 +83,6 @@ h2{
   margin: 0 0.5em 1em 0.5em;
 }
 
-.service-bread{
-  font-family: $headingFont;
-  font-size: 1.5em;
-  line-height: 1.6em;
-}
 
 // .service p{
 //   margin: 1em 1em 1em 1em;

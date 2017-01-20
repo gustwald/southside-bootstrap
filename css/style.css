@@ -48,7 +48,8 @@ hr {
   font-family: "Oswald";
   font-size: 1.5em;
   width: 85%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  line-height: 1.6em; }
 
 .compName {
   font-family: 'Rock Salt', cursive;

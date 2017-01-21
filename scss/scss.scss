@@ -43,6 +43,7 @@ hr{
 
 .headingText{
   font-family: $headingFont;
+  margin: 0 0 1em 0;
 }
 .breadText{
 font-family: $headingFont;
@@ -50,6 +51,14 @@ font-size: 1.5em;
 width: 85%;
 margin: 0 auto;
 line-height: 1.6em;
+margin-bottom: 1em;
+margin-top: 1em;
+}
+.container-fix{
+  padding: 4em;
+}
+.container-fix-work{
+  padding: 0 0 4em 0;
 }
 
 .compName{

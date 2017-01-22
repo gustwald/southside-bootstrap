@@ -122,8 +122,9 @@ li a:hover {
 
 .service {
   background-color: #f2f2f2;
+  box-shadow: 1px 1px 1px #888888;
   line-height: 1.6em;
-  height: 28em; }
+  margin: 0 0.5em 1em 0.5em; }
 
 .service-bread {
   font-family: "Oswald";
@@ -512,4 +513,4 @@ li a:hover {
   .offer-content {
     margin: 0 3.8% 0 3.8%; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=scss.css.map */

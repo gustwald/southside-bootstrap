@@ -28,8 +28,8 @@ and (orientation: portrait) {
 		font-size: 3em;
 		left: 0;
 	}
-	.contact{
-		//Fixa
+	.footer{
+		height: 150px;
 	}
 	.landing{
 		background-position: center right 20%;
@@ -52,29 +52,16 @@ and (orientation: portrait) {
 		height: 200px;
 		margin: 0 50px 0 50px;
 	}
-	.footer{
-		flex-direction: column;
-		height: 25em;
+	.media-logos{
+		height: 30px;
+		width: 30px;
 	}
-
-	.footer-info{
-		margin: 10% 10% 0 10%;
-		justify-content: space-around;
-		height: 7em;
-	}
-
-	.foot-contact{
-		margin: 2em 0 0 10%;
-		height: 7em;
-		justify-content: space-between;
-	}
-	.footer-text{
-		margin: 0 0 1em 0;
-	}
-
-	.media-links{
-		margin-left: 10%;
-		margin-top: 35px !important;
+	.media-container{
+  margin: 20px 0px 10px 0px;
+}
+	.media-text{
+	font-size: 1em;
+	color: white;
 	}
 
 
@@ -134,32 +121,6 @@ and (orientation: portrait) {
 
 }
 
-@media screen  and (min-device-width: 667px){
-	.footer{
-		flex-direction: row;
-		height: 200px;
-	}
-
-	.footer-info{
-		width: 25%;
-		margin: 2em 0 0 10%;
-	}
-
-	.foot-contact{
-		width: 25%;
-		margin: 2em 10% 0 10%;
-	}
-
-	.media-links{
-		width: 25%;
-		margin: -3em 20em 0 1em;
-		flex-direction: row;
-	}
-
-	.media-links img{
-		margin: 0 0 0 1em;
-	}
-}
 
 @media screen and (min-width: 1024px){
 

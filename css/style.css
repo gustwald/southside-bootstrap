@@ -54,6 +54,9 @@ hr {
 .container-fix-work {
   padding: 0 0 4em 0; }
 
+.worklad {
+  padding: 2em; }
+
 .compName {
   position: relative;
   font-family: 'Rock Salt', cursive;

@@ -21,25 +21,36 @@ and (orientation: portrait) {
 		text-align: center;
 	}
 	.compName{
-		font-size: 20px;
+		font-size: 3em;
+		left: 0;
+	}
+		.compName-under{
+		font-size: 3em;
+		left: 0;
 	}
 	.contact{
 		//Fixa
+	}
+	.landing{
+		background-position: center right 20%;
 	}
 	.portrait{
 		display: block;
 	}
 
 	.liam{
-		height: 300px;
+		height: 200px;
+		margin: 0 50px 0 50px;
 	}
 
 	.gustav{
-		height: 300px;
+		height: 200px;
+		margin: 0 50px 0 50px;
 	}
 
 	.martin{
-		height: 300px;
+		height: 200px;
+		margin: 0 50px 0 50px;
 	}
 	.footer{
 		flex-direction: column;
@@ -57,16 +68,16 @@ and (orientation: portrait) {
 		height: 7em;
 		justify-content: space-between;
 	}
+	.footer-text{
+		margin: 0 0 1em 0;
+	}
 
 	.media-links{
 		margin-left: 10%;
 		margin-top: 35px !important;
 	}
 
-	.media-links img{
-		width: 2em;
-		margin-right: 1em;
-	}
+
 	.mike {
 		background-size:350px 65px;
 		width:350px;

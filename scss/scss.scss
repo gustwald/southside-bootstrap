@@ -16,16 +16,18 @@ html{
   // overflow: hidden;
   // position: relative;
   margin: 0;
-  background-image: url("../img/landing.jpg");
+  background-image: url("../img/mac1.jpg");
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   height: 100vh;
 }
 .landing::after{
   @include skew;
-  background-image: url("../img/landing.jpg");
+  background-image: url("../img/mac1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .logo{
@@ -40,7 +42,13 @@ hr{
   border: 0;
   border-radius: 3px;
 }
-
+.navlinks{
+  font-family: "Montserrat", sans-serif;
+  color: black !important;
+}
+.navlinks:hover{
+  color: #16f6a9 !important;
+}
 .headingText{
   font-family: $headingFont;
   margin: 0 0 1em 0;
@@ -51,18 +59,25 @@ font-size: 1.5em;
 width: 85%;
 margin: 0 auto;
 line-height: 1.6em;
-margin-bottom: 1em;
-margin-top: 1em;
 }
-.container-fix{
+.breadText-two{
+  margin-bottom: 2em;
+}
+ .container-fix{
   padding: 4em;
 }
 .container-fix-work{
   padding: 0 0 4em 0;
 }
 
+.worklad {
+  padding:2em;
+}
 .compName{
   @include compName;
+}
+.compName-under{
+  @include compName-under;
 }
 .contact-information{
   font-family: 'Lato', sans-serif;
@@ -173,7 +188,7 @@ margin-top: 1em;
 text-align: center;
 font-family: 'Lato', sans-serif;
 width: 200px;
-height: 390px;
+height: 100px;
 }
 .info-name{
   font-size: 22px;
@@ -201,46 +216,22 @@ height: 390px;
   position: relative;
 }
 
-//footer
+.media-logos{
+  height: 50px;
+  width: 50px;
+  margin: 20 0 10 0;
+}
+.media-text{
+  font-family: $breadFont;
+  color: white;
+}
+.media-container{
+  margin: 50px 0px 0px 0px;
+}
 .footer{
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  height: 250px;
-  width:100%;
-  background-color: #333333;
+  width: 100% !important;
+  height: 150px;
+  background-color: #333;
 }
 
-.footer ul{
-  margin: 5em  0 0 5em;
-}
-
-.footer-info{
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-text{
-  font-family: 'Lato', sans-serif;
-  line-height: 40px;
-}
-
-.footer-contact{
-  font-family: 'Lato', sans-serif;
-  font-size: 42px;
-}
-
-.foot-contact{
-  display:flex;
-  flex-direction: column;
-}
-
-.media-links{
-  display: flex;
-  margin-top: 5em;
-}
-
-.media-links img{
-  width: 3em;
-}
 @import "mediaQueris.scss";

@@ -106,13 +106,11 @@ line-height: 1.6em;
 
 .snow {
   background-image: url("../img/pontus.jpg");
-  background-repeat:no-repeat;
-  background-size:427px 240px;
+  @include snowdoja;
 }
 .doja {
   background-image: url("../img/PANGBRA.jpg");
-  background-repeat:no-repeat;
-  background-size:427px 240px;
+  @include snowdoja;
 }
 
 .adid{

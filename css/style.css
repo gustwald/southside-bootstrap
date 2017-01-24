@@ -56,9 +56,6 @@ hr {
 .container-fix-work {
   padding: 0 0 4em 0; }
 
-.worklad {
-  padding: 2em; }
-
 .compName {
   position: relative;
   font-family: 'Rock Salt', cursive;
@@ -288,9 +285,9 @@ hr {
     margin-right: 1em; }
 
   .mike {
-    background-size: 350px 65px;
-    width: 350px;
-    height: 65px; }
+    background-size: 175px 40px;
+    width: 175px;
+    height: 40px; }
 
   .mike:hover {
     transform: scale(1.1, 1.1); }
@@ -299,18 +296,18 @@ hr {
     transform: scale(1.25, 1.25); }
 
   .adidas {
-    background-size: 350px 150px;
-    width: 350px;
-    height: 150px;
+    background-size: 175px 75px;
+    width: 175px;
+    height: 75px;
     margin-top: 2em; }
 
   .adidas:hover {
     transform: scale(1.15, 1.15); }
 
   .eytys {
-    background-size: 250px 150px;
-    width: 250px;
-    height: 150px;
+    background-size: 125px 75px;
+    width: 125px;
+    height: 75px;
     margin-top: 2em; }
 
   .snow {

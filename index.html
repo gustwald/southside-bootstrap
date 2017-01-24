@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -14,7 +15,7 @@
     </script>
 <title>bootstrapSS</title>
 </head>
-<nav class="navbar navbar-inverse  navbar-fixed-top">
+<nav class="navbar navbar-default  navbar-fixed-top">
   <div class="container-fluid">
 
     <div class="navbar-header">
@@ -24,23 +25,24 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img class="logo" src="img/loggaSouthside.png" /></a>
+      <a class="navbar-brand" href="#"></a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
        <ul class="nav navbar-nav">
-        <li><a href="#">OM</a></li>
-        <li><a href="#">TJÄNSTER</a></li>
-        <li><a href="#">ARBETE</a></li>
-        <li><a href="#">KONTAKT</a></li>
+        <li><a class="navlinks" href="#">OM</a></li>
+        <li><a class="navlinks" href="#">TJÄNSTER</a></li>
+        <li><a class="navlinks" href="#">ARBETE</a></li>
+        <li><a class="navlinks" href="#">KONTAKT</a></li>
       </ul>
     </div>
   </div>
 </nav>
 <body>
     <div class="jumbotron landing">
-  <h2 class="text-center compName">Southside Branding</h2> 
+  <h2 class="text-center compName">SOUTHSIDE</h2>
+  <h2 class="text-center compName-under">BRANDING</h2>  
   <div class="triangle"></div>     
 </div>
 <div class="container fluid container-fix">
@@ -147,7 +149,7 @@
 <hr>
 <div class="container fluid container-fix">
     <h1 class="text-center headingText">Kontakt</h1>
-    <p class="text-center breadText">Om du vill kontakta oss på Southside kan du göra det <a href="mailto:south@side?Subject=Hej%20igen" target="_top">här.</a></p>
+    <p class="text-center breadText breadText-two">Om du vill kontakta oss på Southside kan du göra det <a href="mailto:south@side?Subject=Hej%20igen" target="_top">här.</a></p>
     <div class="row">
         <div class="col-md-4 text-center martin"></div>
         <div class="col-md-4 text-center liam"></div>
@@ -169,24 +171,22 @@
     </div>
 </div>
 
-   <div class="contact">
+   
      <div id="map"></div>
-    <footer class="footer contact">
-        <div class="foot-contact">
-            <h3 class="footer-contact">Kontakt</h3>
-            <p class="footer-text">contact@southsidebranding.com</p>
-            <p class="footer-text">Tellusborgsvägen 1.</p>
-            <p class="footer-text">08-6425418</p>
+     <div class="container footer">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <h1 class="media-text">Tellusborgsvägen 1.</h1>
+                <h1 class="media-text">08-6425418</h1>
+            </div>
+        <div class="col-md-6 media-container text-center">
+            <a href="#"><img class="media-logos" src="img/facebook.svg"></a>
+            <a href="#"><img class="media-logos" src="img/twitter.svg"></a>
+            <a href="#"><img class="media-logos" src="img/instagram.svg"></a>
+            <a href="#"><img class="media-logos" src="img/youtube.svg"></a>
         </div>
-        <div class="media-links">
-            <img id="facebook" src="img/facebook.svg">
-            <img id="twitter" src="img/twitter.svg">
-            <img id="instagram" src="img/instagram.svg">
-            <img id="linkedin" src="img/linkedin.svg">
-            <img id="youtube" src="img/youtube.svg">
         </div>
-    </footer>
-    </div>
+     </div>
 
 <script src="script/script.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

@@ -116,6 +116,10 @@ hr {
   background-repeat: no-repeat;
   background-size: 427px 240px; }
 
+.snow:hover {
+  transition: all 0.5s ease;
+  opacity: 0.5; }
+
 .doja {
   background-image: url("../img/PANGBRA.jpg");
   background-repeat: no-repeat;

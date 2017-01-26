@@ -101,7 +101,6 @@ hr {
   padding: 0.1px; }
 
 .company {
-  height: 370px;
   background-color: #f2f2f2; }
 
 .picwork {
@@ -246,6 +245,9 @@ hr {
   background-color: #333; }
 
 @media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .company p {
+    margin-bottom: 1em; }
+
   .info-children {
     display: none; }
 
@@ -348,6 +350,9 @@ hr {
   .gustav {
     margin-top: 5em; } }
 @media screen and (min-width: 1024px) {
+  .company {
+    height: 370px; }
+
   .offer-content {
     margin: 0 3.8% 0 3.8%; } }
 

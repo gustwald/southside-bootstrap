@@ -71,8 +71,13 @@ line-height: 1.6em;
 }
 
 .worklad {
-  padding:2em;
+   padding:2em;
 }
+
+.brands{
+  margin-bottom:2em;
+}
+
 .compName{
   @include compName;
 }
@@ -99,15 +104,24 @@ line-height: 1.6em;
   height:15em;
 }
 
+.sikon{
+  width:50px;
+  height:50px;
+}
+
 .snow {
   background-image: url("../img/pontus.jpg");
-  background-repeat:no-repeat;
-  background-size:427px 240px;
+  @include snowdoja;
 }
+
+.snow:hover{
+  transition: all 0.5s ease;
+  opacity:0.5;
+}
+
 .doja {
   background-image: url("../img/PANGBRA.jpg");
-  background-repeat:no-repeat;
-  background-size:427px 240px;
+  @include snowdoja;
 }
 
 .adid{
@@ -137,6 +151,7 @@ line-height: 1.6em;
   height:70px;
   margin:0 auto;
   margin-top:3rem;
+  margin-bottom:1em;
   text-align:center;
 }
 
@@ -149,6 +164,7 @@ line-height: 1.6em;
   height:70px;
   margin:0 auto;
   margin-top:3.1rem;
+  margin-bottom:1em;
   text-align:center;
 }
 
@@ -161,6 +177,7 @@ line-height: 1.6em;
   height:100px;
   margin:0 auto;
   margin-top:1.5rem;
+  margin-bottom:0.5em;
   text-align:center;
 }
 

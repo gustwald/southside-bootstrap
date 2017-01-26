@@ -39,3 +39,12 @@
     transform:scale(1.2, 1.2);
 }
 
+@mixin snowdoja() {
+    background-repeat:no-repeat;
+    background-size:427px 240px;
+}
+
+@mixin stick() {
+    display:none;
+}
+

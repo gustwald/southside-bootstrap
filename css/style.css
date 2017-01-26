@@ -142,6 +142,9 @@ hr {
   margin: 0 !important;
   padding: 0 !important; }
 
+.navbar-collapse {
+  padding: 0 10px 0 0 !important; }
+
 .mike {
   background-image: url("../img/snow.png");
   background-repeat: no-repeat;
@@ -254,6 +257,9 @@ hr {
 
   .info-children {
     display: none; }
+
+  .navbar-collapse {
+    padding: 0 0 0 20px !important; }
 
   .martin {
     margin: 0 auto;

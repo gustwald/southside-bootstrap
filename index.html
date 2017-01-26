@@ -25,16 +25,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img class="sikon" src="img/snällapls.svg" alt="lol2k"/></a>
+      <a id="logo" class="navbar-brand" href="#"><img class="sikon" src="img/snällapls.svg" alt="lol2k"/></a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
        <ul class="nav navbar-nav">
-        <li><a class="navlinks" href="#">OM</a></li>
-        <li><a class="navlinks" href="#">TJÄNSTER</a></li>
-        <li><a class="navlinks" href="#">ARBETE</a></li>
-        <li><a class="navlinks" href="#">KONTAKT</a></li>
+           <li><a href="index.html#about" id="abt" class="navlinks">OM</a></li>
+           <li><a href="index.html#offers" id="ofs" class="navlinks">TJÄNSTER</a></li>
+           <li><a href="index.html#about" id="wrk" class="navlinks">ARBETE</a></li>
+           <li><a href="index.html#offers" id="cont" class="navlinks">KONTAKT</a></li>
       </ul>
     </div>
   </div>
@@ -45,14 +45,14 @@
   <h2 class="text-center compName-under">BRANDING</h2>  
   <div class="triangle"></div>     
 </div>
-<div class="container fluid container-fix">
+<div id="about" class="container fluid container-fix">
 	<h1 class="text-center headingText">Vilka är vi?</h1>
 	<p class="text-center breadText">
         Vi är en webbyrå som specialiserat sig på marknadsföring människor, produkter eller företagets på nätet. Vi utvecklar webbsidor som kommer att betona dina produkter, musik eller ideal. Vi ligger i en förort i Stockholm heter Midsommarkransen . Därav namnet Southside Branding, grundarna växte upp i den södra sidan av Stockholm och vi vill vara nära våra rötter.
 	</p>
 </div>
 <hr>
-<div class="container fluid container-fix">
+<div id="offers" class="container fluid container-fix">
 	<h1 class="text-center headingText">Vad vi kan hjälpa er med</h1>
         <div class="row">
             <div class="col-md-4">
@@ -88,31 +88,29 @@
         </div>
 </div>
 <hr>
-    <div class="container fluid container-fix worklad">
-	<h1 class="text-center headingText">Arbeten</h1>
-    <div class="row">
-        <div class="col-md-4 col-xs-12">
-            <div class="margpad company">
-            <div class="mike brands">
-            </div>
-            <p class="text-center breadText">
-                Vi fick privilegiet att arbeta med en av våra favoritartister Miike Snow, vi skapade deras hemsida från grunden. 
-                Arbetet kom med ett antal utmaningar, bland annat att kombinera information med en snygg design. 
-            </p> 
-            </div>
+<div id="work" class="container fluid container-fix worklad">
+<h1 class="text-center headingText">Arbeten</h1>
+<div class="row">
+    <div class="col-md-4 col-xs-12">
+        <div class="margpad company">
+        <div class="mike brands">
         </div>
-
-        <div class ="col-md-4 col-xs-12">
-            <div class="margpad company">
-            <div class="eytys brands">
-            </div>
-            <p class ="text-center breadText">
-                Vi skapade Eytys nya hemsida, det är ett svenskt företag som specialiserar sig på att göra schyssta skor. 
-                Dem gav oss fria tyglar över designen och vårat gäng gick bananas, resultatet blev grymt och vi är stolta över att ha arbetat med ett svenskt märke.
-            </p>
-            </div>
+        <p class="text-center breadText">
+            Vi fick privilegiet att arbeta med en av våra favoritartister Miike Snow, vi skapade deras hemsida från grunden.
+            Arbetet kom med ett antal utmaningar, bland annat att kombinera information med en snygg design.
+        </p>
+    </div>
+</div>
+    <div class ="col-md-4 col-xs-12">
+        <div class="margpad company">
+        <div class="eytys brands">
         </div>
-
+        <p class ="text-center breadText">
+            Vi skapade Eytys nya hemsida, det är ett svenskt företag som specialiserar sig på att göra schyssta skor.
+            Dem gav oss fria tyglar över designen och vårat gäng gick bananas, resultatet blev grymt och vi är stolta över att ha arbetat med ett svenskt märke.
+        </p>
+    </div>
+</div>
         <div class="col-md-4 col-xs-12">
             <div class="margpad company">
             <div class="adidas brands">
@@ -146,7 +144,7 @@
     </div>
 
 <hr>
-<div class="container fluid container-fix">
+<div id="contact" class="container fluid container-fix">
     <h1 class="text-center headingText">Kontakt</h1>
     <p class="text-center breadText breadText-two">Om du vill kontakta oss på Southside kan du göra det <a href="mailto:south@side?Subject=Hej%20igen" target="_top">här.</a></p>
     <div class="row">
@@ -186,7 +184,6 @@
         </div>
         </div>
      </div>
-
 <script src="script/script.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>

@@ -35,12 +35,18 @@ hr{
   border: 0;
   border-radius: 3px;
 }
+
+.navbar-collapse{
+  background-color: white !important;
+}
 .navlinks{
+  transition: all 0.4s ease;
   font-family: "Montserrat", sans-serif;
   color: black !important;
 }
 .navlinks:hover{
   color: #16f6a9 !important;
+  background-color: #f9f9f9 !important;
 }
 .headingText{
   font-family: $headingFont;

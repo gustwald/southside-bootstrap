@@ -94,6 +94,33 @@ function initMap() {
     }
     initMap();
 
+$("#logo").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".landing").offset().top
+    }, 1000);
+});
 
+$("#abt").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 1000);
+});
 
+$("#ofs").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#offers").offset().top
+    }, 1000);
+});
+
+$("#wrk").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#work").offset().top
+    }, 1000);
+});
+
+$("#cont").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 1000);
+});
 

@@ -28,6 +28,10 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
+.logo {
+  height: 30px;
+  width: auto; }
+
 hr {
   margin: 6em 20% 0 20%;
   background: #000000;
@@ -111,9 +115,7 @@ hr {
   background-repeat: no-repeat;
   background-size: 427px 240px; }
 
-.snow:hover,
-.doja:hover,
-.adid:hover {
+.snow:hover {
   transition: all 0.5s ease;
   opacity: 0.5; }
 
@@ -354,4 +356,4 @@ hr {
   .offer-content {
     margin: 0 3.8% 0 3.8%; } }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=scss.css.map */

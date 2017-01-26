@@ -89,7 +89,6 @@ line-height: 1.6em;
 }
 
 .company{
-  height:370px;
   background-color:#f2f2f2;
 }
 
@@ -133,7 +132,7 @@ line-height: 1.6em;
   @include transform;
 }
 
-.adidas:hover{ 
+.adidas:hover{
   @include transform;
 }
 
@@ -181,8 +180,8 @@ line-height: 1.6em;
   top:80%;
   left: 50%;
   color: white;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 20px solid white;

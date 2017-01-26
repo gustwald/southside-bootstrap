@@ -99,9 +99,6 @@ hr {
 .company {
   background-color: #f2f2f2; }
 
-.picwork {
-  height: 15em; }
-
 .sikon {
   width: 50px;
   height: 50px; }
@@ -135,6 +132,10 @@ hr {
 
 .adidas:hover {
   transform: scale(1.2, 1.2); }
+
+.navbar-brand {
+  margin: 0 !important;
+  padding: 0 !important; }
 
 .mike {
   background-image: url("../img/snow.png");
@@ -352,6 +353,9 @@ hr {
     height: 370px; }
 
   .offer-content {
-    margin: 0 3.8% 0 3.8%; } }
+    margin: 0 3.8% 0 3.8%; }
+
+  .picwork {
+    height: 240px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -72,6 +72,18 @@ line-height: 1.6em;
 .worklad {
    padding:2em;
 }
+.noscript-map{
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/karta.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.noscript-text{
+  font-size: 28px;
+  font-weight: bold;
+  color: red;
+}
 
 .brands{
   margin-bottom:2em;
@@ -144,7 +156,7 @@ line-height: 1.6em;
 }
 .navbar-collapse{
   padding: 0 10px 0 0!important;
-}
+} 
 .mike{
   background-image: url("../img/snow.png");
   background-repeat:no-repeat;

@@ -206,12 +206,6 @@ line-height: 1.6em;
    transform: rotateX(90deg);
 }
 
-@-webkit-keyframes bounce {
-  0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
-  40%  { -webkit-transform: translateY(-20px); }
-  80% { -webkit-transform: translateY(-10px); }
-}
-
 .info-children{
 text-align: center;
 font-family: 'Lato', sans-serif;

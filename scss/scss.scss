@@ -11,6 +11,9 @@ $breadFont: 'Lato';
 html{
   scroll-behavior: smooth;
 }
+body{
+  overflow-x: hidden;
+}
 
 .landing{
   margin: 0;

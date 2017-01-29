@@ -128,12 +128,6 @@ hr {
   background-repeat: no-repeat;
   background-size: 427px 240px; }
 
-.snow:hover,
-.doja:hover,
-.adid:hover {
-  transition: all 0.5s ease;
-  opacity: 0.5; }
-
 .doja {
   background-image: url("../img/PANGBRA.jpg");
   background-repeat: no-repeat;
@@ -209,13 +203,6 @@ hr {
   -webkit-animation: bounce 2s infinite;
   transform: rotateX(90deg); }
 
-@-webkit-keyframes bounce {
-  0%, 20%, 60%, 100% {
-    -webkit-transform: translateY(0); }
-  40% {
-    -webkit-transform: translateY(-20px); }
-  80% {
-    -webkit-transform: translateY(-10px); } }
 .info-children {
   text-align: center;
   font-family: 'Lato', sans-serif;

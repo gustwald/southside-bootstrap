@@ -299,6 +299,9 @@ hr {
     font-size: 3em;
     left: 0; }
 
+  .triangle {
+    left: 45%; }
+
   .footer {
     height: 150px; }
 
@@ -318,7 +321,8 @@ hr {
 
   .martin {
     height: 200px;
-    margin: 0 50px 0 50px; }
+    margin: 0 50px 0 50px;
+    background-position: center right 10%; }
 
   .media-logos {
     height: 30px;
@@ -370,10 +374,12 @@ hr {
     margin-top: 2em; }
 
   .liam {
-    margin-top: 5em; }
+    margin-top: 5em;
+    background-position: center right 10%; }
 
   .gustav {
-    margin-top: 5em; } }
+    margin-top: 5em;
+    background-position: center right 10%; } }
 @media screen and (min-width: 1024px) {
   .company {
     height: 370px; }

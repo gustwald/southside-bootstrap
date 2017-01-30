@@ -15,7 +15,6 @@
 	font-size: 4em;
     font-weight: bold;
     color: black !important;
-	// text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     top:30%;
     left: 10%; 
 }
@@ -25,7 +24,6 @@
 	font-size: 4em;
       font-weight: bold;
     color: black !important;
-	// text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     top:27%;
     left: 15%; 
 }
@@ -47,4 +45,3 @@
 @mixin stick() {
     display:none;
 }
-

@@ -13,21 +13,6 @@ and (orientation: portrait) {
 	.navbar-collapse{
 	padding: 0 0 0 20px!important;
 	}
-	.martin{
-		margin: 0 auto;
-		text-align: center;
-		margin-bottom: 1em;
-		margin-top: 2em;
-	}
-	.liam{
-		margin: 0 auto;
-		text-align: center;
-		margin-bottom: 1em;
-	}
-	.gustav{
-		margin: 0 auto;
-		text-align: center;
-	}
 	.compName{
 		font-size: 3em;
 		left: 0;
@@ -51,18 +36,30 @@ and (orientation: portrait) {
 
 	.liam{
 		height: 200px;
+		width: 50%;
 		margin: 0 50px 0 50px;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 1em;
 	}
 
 	.gustav{
 		height: 200px;
+		width: 50%;
 		margin: 0 50px 0 50px;
+		margin: 0 auto;
+		text-align: center;
 	}
 
 	.martin{
 		height: 200px;
+		width: 50%;
 		margin: 0 50px 0 50px;
 		background-position: center right 10%;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 1em;
+		margin-top: 2em;
 	}
 	.media-logos{
 		height: 30px;

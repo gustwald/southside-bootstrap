@@ -7,39 +7,11 @@ and (orientation: portrait) {
 		margin-bottom: 1em;
 	}
 
-	.asdf{
-		text-align: center;
-		font-family: 'Lato', sans-serif;
-		width: 200px;
-		height: 100px;
-		margin: 0 0 -5em 23%;
-	}
-
-	#map{
-		margin-top: 3em;
-	}
-
 	.info-children{
 		display:none;
 	}
 	.navbar-collapse{
 	padding: 0 0 0 20px!important;
-	}
-	.martin{
-		margin: 0 auto;
-		text-align: center;
-		margin: 2em 0 1em 0;
-		//margin-bottom: 1em;
-		//margin-top: 2em;
-	}
-	.liam{
-		margin: 0 auto;
-		text-align: center;
-		margin-bottom: 1em;
-	}
-	.gustav{
-		margin: 0 auto;
-		text-align: center;
 	}
 	.compName{
 		font-size: 3em;
@@ -48,6 +20,9 @@ and (orientation: portrait) {
 		.compName-under{
 		font-size: 3em;
 		left: 0;
+	}
+	.triangle{
+		left: 45%;
 	}
 	.footer{
 		height: 150px;
@@ -61,24 +36,37 @@ and (orientation: portrait) {
 
 	.liam{
 		height: 200px;
+		width: 50%;
 		margin: 0 50px 0 50px;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 1em;
 	}
 
 	.gustav{
 		height: 200px;
+		width: 50%;
 		margin: 0 50px 0 50px;
+		margin: 0 auto;
+		text-align: center;
 	}
 
 	.martin{
 		height: 200px;
+		width: 50%;
 		margin: 0 50px 0 50px;
+		background-position: center right 10%;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 1em;
+		margin-top: 2em;
 	}
 	.media-logos{
 		height: 30px;
 		width: 30px;
 	}
 	.media-container{
-  margin: 20px 0 10px 0;
+  margin: 20px 0px 10px 0px;
 }
 	.media-text{
 	font-size: 1em;
@@ -134,10 +122,12 @@ and (orientation: portrait) {
 
     .liam{
       margin-top:5em;
+	  background-position: center right 10%;
     }
 
     .gustav{
       margin-top: 5em;
+	  background-position: center right 10%;
     }
 
 }
@@ -155,9 +145,5 @@ and (orientation: portrait) {
 
 	.picwork{
 		height:240px;
-	}
-
-	.asdf{
-		display:none;
 	}
 }

@@ -7,6 +7,18 @@ and (orientation: portrait) {
 		margin-bottom: 1em;
 	}
 
+	.asdf{
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		width: 200px;
+		height: 100px;
+		margin: 0 0 -5em 23%;
+	}
+
+	#map{
+		margin-top: 3em;
+	}
+
 	.info-children{
 		display:none;
 	}
@@ -16,8 +28,9 @@ and (orientation: portrait) {
 	.martin{
 		margin: 0 auto;
 		text-align: center;
-		margin-bottom: 1em;
-		margin-top: 2em;
+		margin: 2em 0 1em 0;
+		//margin-bottom: 1em;
+		//margin-top: 2em;
 	}
 	.liam{
 		margin: 0 auto;
@@ -65,7 +78,7 @@ and (orientation: portrait) {
 		width: 30px;
 	}
 	.media-container{
-  margin: 20px 0px 10px 0px;
+  margin: 20px 0 10px 0;
 }
 	.media-text{
 	font-size: 1em;
@@ -142,5 +155,9 @@ and (orientation: portrait) {
 
 	.picwork{
 		height:240px;
+	}
+
+	.asdf{
+		display:none;
 	}
 }

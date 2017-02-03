@@ -6,7 +6,8 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  width: 100%; }
 
 .landing {
   margin: 0;
@@ -112,8 +113,7 @@ hr {
   margin: 2em 0 0 0; }
 
 .margpad {
-  margin: 0.1px 0.1px 0.1px 0.1px;
-  margin-top: 10px;
+  margin: 10.1px 0.1px 0.1px 0.1px;
   padding: 0.1px; }
 
 .company {
@@ -239,14 +239,14 @@ hr {
 .media-logos {
   height: 50px;
   width: 50px;
-  margin: 20 0 10 0; }
+  margin: 20px 0 10px 0; }
 
 .media-text {
   font-family: "Lato";
   color: white; }
 
 .media-container {
-  margin: 50px 0px 0px 0px; }
+  margin: 50px 0 0 0; }
 
 .footer {
   width: 100% !important;
@@ -257,6 +257,16 @@ hr {
   .company p {
     margin-bottom: 1em; }
 
+  .asdf {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    height: 100px;
+    margin: 0 0 -5em 23%; }
+
+  #map {
+    margin-top: 3em; }
+
   .info-children {
     display: none; }
 
@@ -266,8 +276,7 @@ hr {
   .martin {
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 1em;
-    margin-top: 2em; }
+    margin: 2em 0 1em 0; }
 
   .liam {
     margin: 0 auto;
@@ -312,7 +321,7 @@ hr {
     width: 30px; }
 
   .media-container {
-    margin: 20px 0px 10px 0px; }
+    margin: 20px 0 10px 0; }
 
   .media-text {
     font-size: 1em;
@@ -369,6 +378,9 @@ hr {
     margin: 0 3.8% 0 3.8%; }
 
   .picwork {
-    height: 240px; } }
+    height: 240px; }
+
+  .asdf {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

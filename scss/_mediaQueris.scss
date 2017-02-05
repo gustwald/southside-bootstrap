@@ -66,11 +66,11 @@ and (orientation: portrait) {
 		width: 30px;
 	}
 	.media-container{
-  margin: 20px 0px 10px 0px;
-}
+  		margin: 20px 0px 10px 0px;
+	}
 	.media-text{
-	font-size: 1em;
-	color: white;
+		font-size: 1em;
+		color: white;
 	}
 
 
@@ -132,6 +132,30 @@ and (orientation: portrait) {
 
 }
 
+@media screen and (min-width: 426px){
+	.container-fix-work{
+		display:none;
+	}
+	.martin{
+		width:50%;
+		margin: 3em auto;
+	}
+	.gustav{
+		width:50%;
+		margin: 3em auto;
+	}
+	.liam{
+		width:50%;
+		margin: 3em auto;
+	}
+	.info-children{
+		display:none;
+	}
+	.footer{
+		margin-bottom: 0;
+	}
+}
+
 
 @media screen and (min-width: 1024px){
 
@@ -145,5 +169,9 @@ and (orientation: portrait) {
 
 	.picwork{
 		height:240px;
+	}
+
+	.media-container{
+		margin-bottom: 2em;
 	}
 }

@@ -16,16 +16,16 @@
     font-weight: bold;
     color: black !important;
     top:30%;
-    left: 10%; 
+    margin-left: 20%;
 }
 @mixin compName-under(){
     position:relative;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 4em;
-      font-weight: bold;
+    font-weight: bold;
     color: black !important;
     top:27%;
-    left: 15%; 
+    margin-left: 25%;
 }
 @mixin portraits(){
     background-size: cover;
